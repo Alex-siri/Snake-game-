@@ -1,4 +1,4 @@
-from turtle import Screen
+from turtle import Scree
 from score_board import Scoreboard
 from snake import Snake
 from food import Food
@@ -40,5 +40,6 @@ while game_is_on:
         for segment in snake.segments[1: ]:
             if snake.head.distance(segment) < 10:
                 scoreboard.reset()
+
 
 screen.exitonclick()
