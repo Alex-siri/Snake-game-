@@ -1,4 +1,4 @@
-from turtle import Scree
+from turtle import Screen
 from score_board import Scoreboard
 from snake import Snake
 from food import Food
@@ -43,3 +43,4 @@ while game_is_on:
 
 
 screen.exitonclick()
+
